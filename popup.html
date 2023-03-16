@@ -1,0 +1,122 @@
+<!-- This file contain the UI of the Pop Up menu -->
+
+
+<body>
+   <div class="micorsoft-apps-launcher">
+
+      <h2 class="apps-module-heading">Microsoft 365</h2>
+
+      <a class="office-links" href="https://www.office.com/?ocid=PROD_Edge_CONS_WebXT_FM_EDG_NTP-Waffle-Office">
+         Microsoft 365
+         <svg width="14" height="13" class="arrow-icon" viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M7.54848 0L14 6.5L7.54848 13L6.93144 12.3783L12.3271 6.94208H0V6.05792H12.3271L6.93144 0.621679L7.54848 0Z">
+            </path>
+         </svg>
+      </a>
+
+      <div class="apps-module-tiles">
+
+         <!-- <div class="app-link">
+            <a class="control" href="https://onedrive.live.com/?ocid=PROD_Edge_CONS_WebXT_FM_EDG_NTP-Waffle-OneDrive">
+               <img width="22px" height="22px"
+                  src="https://assets.msn.com/staticsb/statics/latest/icons/office-icons/OneDrive_24x.svg">
+               <label class="app-title">OneDrive</label>
+            </a>
+         </div> -->
+
+      </div>
+
+
+      <a class="office-links"
+         href="https://www.microsoft.com/microsoft-365/free-productivity-apps?ocid=PROD_Edge_CONS_WebXT_FM_EDG_NTP-Waffle-AllApps">
+         All Apps
+         <svg width="14" height="13" class="arrow-icon" viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M7.54848 0L14 6.5L7.54848 13L6.93144 12.3783L12.3271 6.94208H0V6.05792H12.3271L6.93144 0.621679L7.54848 0Z">
+            </path>
+         </svg>
+      </a>
+
+   </div>
+
+
+   <!-- Styling -->
+   <style>
+      * {
+         font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, sans-serif;
+         background-color: #f7f7f7;
+         margin: 0px;
+      }
+
+      .micorsoft-apps-launcher .office-links {
+         text-decoration: none;
+         color: blue;
+         font-size: 12px;
+         display: inline-block;
+         margin-left: 50px;
+         margin-right: 18px;
+         margin-top: 15px;
+         margin-bottom: 20px;
+      }
+
+      .micorsoft-apps-launcher .apps-module-heading {
+         margin-left: 18px;
+         margin-right: 0px;
+         font-size: 14px;
+         display: inline-block;
+         margin-top: 15px;
+         margin-bottom: 20px;
+      }
+
+      .micorsoft-apps-launcher .apps-module-tiles {
+         margin-left: 8px;
+         margin-right: 0px;
+         margin-bottom: 10px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+
+      .micorsoft-apps-launcher .app-link {
+         width: fit-content;
+         height: 38px;
+         padding: 0px 10px;
+         font-size: 12px;
+         display: inline-flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: flex-start;
+         cursor: pointer;
+      }
+
+      .micorsoft-apps-launcher .app-link * {
+         margin: 4px;
+      }
+
+      .micorsoft-apps-launcher .control {
+         background: transparent;
+         height: inherit;
+         flex-grow: 2;
+         box-sizing: border-box;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         white-space: nowrap;
+         outline: none;
+         text-decoration: none;
+         color: inherit;
+         border-radius: inherit;
+         fill: inherit;
+         cursor: inherit;
+      }
+
+      .micorsoft-apps-launcher .app-title {
+         line-height: 38px;
+         font-size: 12px;
+         cursor: pointer;
+      }
+   </style>
+
+   <!-- Source to script <script> ... </script> will not work-->
+   <script src="script.js"></script>
+</body>
