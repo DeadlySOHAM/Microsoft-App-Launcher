@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
    "name": "Microsoft App Launcher",
-   "version": "1.0",
+   "version": "1.1",
    "description": "Adds a Microsoft App Launcher shortcut",
    "icons": {
       "48": "icon.svg",
@@ -25,7 +25,7 @@
          "matches": [
             "*://*.mozilla.org/*"
          ],
-         "js": [ "script.js" ]
+         "js": [ ]
       }
    ],
    "background": {

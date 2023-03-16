@@ -8,13 +8,11 @@ const container = document.querySelectorAll('.apps-module-tiles')[0];
 
 // view of each app
 const view = (src, href, name) => `
-   <div class="app-link">
-      <a class="control" href="${href}">
+      <a class="app-link" href="${href}">
          <img width="22px" height="22px"
             src="${src}">
          <label class="app-title">${name}</label>
-      </a>
-   </div>`;
+      </a>`;
 
 
 // list of app - name, image(icon), link

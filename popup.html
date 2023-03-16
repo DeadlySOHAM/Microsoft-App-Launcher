@@ -17,13 +17,7 @@
 
       <div class="apps-module-tiles">
 
-         <!-- <div class="app-link">
-            <a class="control" href="https://onedrive.live.com/?ocid=PROD_Edge_CONS_WebXT_FM_EDG_NTP-Waffle-OneDrive">
-               <img width="22px" height="22px"
-                  src="https://assets.msn.com/staticsb/statics/latest/icons/office-icons/OneDrive_24x.svg">
-               <label class="app-title">OneDrive</label>
-            </a>
-         </div> -->
+         <!-- Loaded Dynamically -->
 
       </div>
 
@@ -78,7 +72,7 @@
       }
 
       .micorsoft-apps-launcher .app-link {
-         width: fit-content;
+         /* width: fit-content; */
          height: 38px;
          padding: 0px 10px;
          font-size: 12px;
@@ -87,10 +81,17 @@
          align-items: center;
          justify-content: flex-start;
          cursor: pointer;
+         border-radius: 5px;
+         text-decoration: none;
+      }
+
+      .micorsoft-apps-launcher .app-link:hover {
+         background-color: #d0d0d0;
       }
 
       .micorsoft-apps-launcher .app-link * {
          margin: 4px;
+         background-color: transparent;
       }
 
       .micorsoft-apps-launcher .control {
