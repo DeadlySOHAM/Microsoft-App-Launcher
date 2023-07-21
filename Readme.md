@@ -8,3 +8,6 @@
 
    - Highlight on hover added
    - Minor front-end structure rearrangement
+
+# 1.2 Release Note
+   - Updated Microsoft 365 icon to the latest one.

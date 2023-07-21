@@ -19,7 +19,7 @@ const view = (src, href, name) => `
 data = [
    {
       "name":"Microsoft 365",
-      "src": "https://assets.msn.com/staticsb/statics/latest/icons/office-icons/Office_24x.svg",
+      "src": "https://res.cdn.office.net/officehub/images/content/images/favicon_m365-67350a08e8.ico",
       "href": "https://www.microsoft.com/microsoft-365?ocid=PROD_Edge_CONS_WebXT_FM_EDG_NTP-Waffle-Office"
    },
    {
